@@ -1,2 +1,8 @@
-# haide-the-playwright
-An example Playwright project in Node.js using Proxy.
+# heide-the-playwright
+
+**Under development**
+
+A project using Node, TypeScript & Playwright.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

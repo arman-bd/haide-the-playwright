@@ -1,0 +1,29 @@
+{
+  "name": "haide-the-playwright",
+  "version": "1.0.0",
+  "description": "A project using Node, TypeScript, Playwright.",
+  "main": "app/index.js",
+  "scripts": {
+    "serve": "nodemon app/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arman-bd/haide-the-playwright.git"
+  },
+  "author": "arman-bd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arman-bd/haide-the-playwright/issues"
+  },
+  "homepage": "https://github.com/arman-bd/haide-the-playwright#readme",
+  "dependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.28.0"
+  }
+}

@@ -6,6 +6,11 @@ import TaskRouter from "./routers/task";
 const app = express();
 const port = 8900;
 
+// Home Page
+app.get("/", (req: Request, res: Response, next: NextFunction) => {
+    res.send("Hello World!");
+});
+
 // Health Check
 app.get("/ping", (req: Request, res: Response, next: NextFunction) => {
   res.send("PONG at " + new Date());

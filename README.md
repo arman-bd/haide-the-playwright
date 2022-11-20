@@ -1,7 +1,5 @@
 # Heide the Playwright
 
-## NOTE: This is a work in progress.  It is not yet ready for use.
-
 <img src="heide.png" width="100%" />
 
 This project demonstrates how to use [Playwright](https://playwright.dev/) to automate the browser. It uses **proxies** to bypass various anti-bot measures. It can also be used to scrape data from websites. It is written in [TypeScript](https://www.typescriptlang.org/), [Express](https://expressjs.com/) and uses [Node.js](https://nodejs.org/en/) as the runtime.
@@ -16,8 +14,6 @@ The project requires the following to be installed:
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 
-It also requires a collection of proxies to be available.
-
 ### Installation
 
 After installing the requirements, clone the repository and install the dependencies:
@@ -26,6 +22,17 @@ After installing the requirements, clone the repository and install the dependen
 git clone https://github.com/arman-bd/haide-the-playwright.git
 cd capsy-the-puppeteer
 npm install
+```
+
+### Configuration
+
+The project requires a list of proxies to be available inside .proxies file. If the proxies are not available, the application will work without proxies. If the proxy requires authentication, the username and password should be provided. Otherwise, the username and password should be omitted.
+
+Fomat of the proxy file:
+
+```text
+username:password@ip:port
+ip:port
 ```
 
 ### Running

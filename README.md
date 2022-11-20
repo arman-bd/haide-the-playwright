@@ -1,6 +1,6 @@
 # Heide the Playwright
 
-# NOTE: This is a work in progress.  It is not yet ready for use.
+## NOTE: This is a work in progress.  It is not yet ready for use.
 
 <img src="heide.png" width="100%" />
 

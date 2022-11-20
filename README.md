@@ -49,6 +49,14 @@ docker-compose up --build -d
 The command will build the Docker image and start the container in detached mode. 
 You can access the API at `http://localhost:8900`.
 
+### API
+
+The application currently has the following API(s):
+
+- `GET /`: Returns a simple message to indicate that the API is working.
+- `GET /ping`: Returns a ping response with Timestamp.
+- `GET /task/screenshot?url={url}`: Returns a screenshot of the given URL.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

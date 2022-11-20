@@ -31,8 +31,8 @@ The project requires a list of proxies to be available inside .proxies file. If 
 Fomat of the proxy file:
 
 ```text
-username:password@ip:port
-ip:port
+username:password@http://ip:port
+socks5://ip:port
 ```
 
 ### Running

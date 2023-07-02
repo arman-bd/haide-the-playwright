@@ -20,7 +20,7 @@ After installing the requirements, clone the repository and install the dependen
 
 ```bash
 git clone https://github.com/arman-bd/haide-the-playwright.git
-cd capsy-the-puppeteer
+cd haide-the-playwright
 npm install
 ```
 
